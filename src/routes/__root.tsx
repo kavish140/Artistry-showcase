@@ -88,8 +88,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         content: "A curated house of living painters. Browse the gallery and arrange a private viewing.",
       },
       { property: "og:type", content: "website" },
+      { property: "og:image", content: "https://artistry-showcase.sitenova.dev/og-image.jpg" },
+      { property: "og:image:width", content: "1200" },
+      { property: "og:image:height", content: "630" },
+      { property: "og:image:alt", content: "Atelier Marr — Contemporary Painting, Curated" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@AtelierMarr" },
+      { name: "twitter:image", content: "https://artistry-showcase.sitenova.dev/og-image.jpg" },
     ],
     links: [
       {
